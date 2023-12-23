@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const URLMONGO = 'mongodb+srv://root:root@login.hkqlcgy.mongodb.net//login-artista-latino';
+const URLMONGO = 'mongodb+srv://root:root@login.hkqlcgy.mongodb.net//login-artista-latino'
 
 export const connectDB = async() => {
     try {
